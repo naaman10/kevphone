@@ -1,0 +1,105 @@
+---
+---
+
+$primary-color-dark: #30CA6D;
+$stylish-color-dark: #80EBB7;
+$special-color-dark: #263238;
+$special-color: #37474F;
+$unique-color: #3F729B;
+
+// fonts
+
+$header-font: 'IBM Plex Sans', sans-serif;
+$body-font: 'Montserrat', sans-serif;
+
+
+html,body {
+  height: 100%;
+  font-family: 'Anton', sans-serif;
+}
+#topSection{
+  height: 50%;
+  background-color: #DB504A;
+
+}
+#bottomSection {
+  margin-top: -150px;
+}
+.device {
+  width: 305.25px;
+  height: 633px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1px;
+  background-color: black;
+  border-radius: 40px;
+  -webkit-box-shadow: -15px 15px 61px -12px rgba(0,0,0,0.65);
+  -moz-box-shadow: -15px 15px 61px -12px rgba(0,0,0,0.65);
+  box-shadow: -15px 15px 61px -12px rgba(0,0,0,0.65);
+}
+.screen-wrapper {
+  position: relative;
+  height: 609px;
+  width: 281.25px;
+  margin-top: 11px;
+  margin-left: 12px;
+  overflow: hidden;
+  border-radius: 30px;
+}
+.screen {
+  position: relative;
+  height: 609px;
+  width: 281.25px;
+  padding-top: 25px;
+  background: #eee;
+  border-radius: 30px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-perspective: 700px;
+          perspective: 700px;
+}
+.browserTop{
+  width: 100%;
+  height: 20px;
+  background-color: #eee;
+  text-align: center;
+}
+.topText {
+  font-size: 10px;
+  color: grey;
+  font-weight: lighter;
+}
+.notch {
+  position: absolute;
+  top: 0px;
+  left: 30%;
+  height: 22.5px;
+  width: 40%;
+  background-color: black;
+  border-radius: 0 0 15px 15px;
+}
+.device .screenInfo {
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 20px 20px;
+  background-color: #fff;
+}
+.screenInfo {
+  text-align: center;
+  padding-top: 5rem;
+}
+.screenInfo .fa-bolt {
+  font-size: 50px;
+  color: yellow;
+}
+#topSection {
+  text-align: center;
+  padding-top:6%;
+  color: white;
+}
+#topSection .title {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
